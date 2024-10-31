@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	margin:0;
+	padding:0;
+}
+
+#videopresenter{
+	position:absolute;
+	margin:0;
+	padding:5px;
+	max-width:720px;	
+	min-width:680px;
+	background-color:#eee;
+	border:1px solid #999;
+	box-shadow:#C1B3FF 3px 3px 3px;
+}
+
+#video_bar{
+	float:left;
+	max-width:310px;
+	min-width:150px;
+	background-color:#ccc;
+	border:1px solid #eee;
+	box-shadow:#000 0 0 3px inset;
+	padding:3px;
+}
+
+.video_bar{
+	position:relative;
+	padding:1px;
+	list-style:none;	
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.video_bar ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.video_bar ul li{
+	margin:0;
+	padding:0;
+	min-height:115px; /*due to some strange bug that messes up the lists*/
+}
+
+.video_bar img{
+	float:left;
+	border:1px solid #eee;
+}
+.video_desc_box{
+	float:left;
+	
+}
+
+.video_title{
+	position:absolute;
+	color:#FFF;
+	margin:80px 0 0 -151px;
+	width:144px;
+	max-height:30px;
+	padding:3px 3px 1px 3px;
+	background-color:rgba(50,50,50,0.6);
+	overflow:hidden;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:10px;
+	border-top-left-radius:5px;
+	border-bottom:1px solid #900;
+}
+.video_desc{
+	display:none;
+}
+.video_date{
+	display:none;
+}
+
+#player{
+	float:left;
+	margin-left:2px;
+}
+#player_desc{
+	background-color:#FFFF99;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #FF0;
+	box-shadow:#000 1px 1px 3px;
+	max-width:300px;
+	margin:0 auto 0 auto;
+	display:none;
+}
+
+.notice{
+	color:#F00;
+	font-size:0.8em;
+	font-style:italic;
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.notice{
+	color:#F00;
+	font-size:0.8em;
+	font-style:italic;
+}
+
+.labels{
+	position:relative;
+	width:150px;
+	height:27px;
+	clear:left;
+	float:left;
+}
+
+.wrap input{
+	position:relative;
+	box-shadow:#ccc 0px 0px 3px inset !important;
+}
+
+hr{
+clear:both;
+}
